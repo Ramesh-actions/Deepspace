@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<checkstyle version="6.11.2">
-<file name="C:\Users\srivatsam\Downloads\deep-space-master\deep-space-master\DeepSpace\src\main\java\com\microsoft\tfs\demo\Image.java">
-</file>
-<file name="C:\Users\srivatsam\Downloads\deep-space-master\deep-space-master\DeepSpace\src\main\java\com\microsoft\tfs\demo\ImageService.java">
-</file>
-<file name="C:\Users\srivatsam\Downloads\deep-space-master\deep-space-master\DeepSpace\src\test\java\com\microsoft\tfs\demo\ImageServiceTest.java">
-</file>
-</checkstyle>
