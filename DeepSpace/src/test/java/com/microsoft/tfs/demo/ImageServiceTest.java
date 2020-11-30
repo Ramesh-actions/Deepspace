@@ -120,11 +120,11 @@ public class ImageServiceTest {
     @Test
     public void getGetByNameEarth() {
         // Uncomment the following test when Earth is added
-        /*
+
         Image earth = this.underTest.getByName("earth");
         assertEquals(512, earth.getWidth());
         assertEquals(512, earth.getHeight());
-        */
+        
     }
 
     @Test
