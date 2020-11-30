@@ -1,3 +1,31 @@
+/**
+ * ------------------------------------------ START OF LICENSE -----------------------------------------
+ *
+ * Deep-Space
+ *
+ * Copyright (c) Microsoft Corporation
+ *
+ * All rights reserved.
+ *
+ * MIT License
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+ * associated documentation files (the ""Software""), to deal in the Software without restriction,
+ * including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so,
+ * subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all copies or substantial
+ * portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED *AS IS*, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+ * LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ * IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ * WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ *
+ * ----------------------------------------------- END OF LICENSE ------------------------------------------
+ */
 package com.microsoft.tfs.demo;
 
 import com.microsoft.applicationinsights.TelemetryClient;
@@ -32,6 +60,48 @@ public class ImageService {
         sun.setWidth(660);
         sun.setHeight(660);
         PLANETARY.add(sun);
+
+        Image mars = new Image();
+        mars.setSrc("./images/mars.jpg");
+        mars.setWidth(660);
+        mars.setHeight(660);
+        PLANETARY.add(mars);
+
+        Image mercury = new Image();
+        mercury.setSrc("./images/mercury.jpg");
+        mercury.setWidth(660);
+        mercury.setHeight(660);
+        PLANETARY.add(mercury);
+
+        Image moon = new Image();
+        moon.setSrc("./images/moon.jpg");
+        moon.setWidth(660);
+        moon.setHeight(660);
+        PLANETARY.add(moon);
+
+        Image neptune = new Image();
+        neptune.setSrc("./images/neptune.jpg");
+        neptune.setWidth(660);
+        neptune.setHeight(660);
+        PLANETARY.add(neptune);
+
+        Image pluto = new Image();
+        pluto.setSrc("./images/pluto.jpg");
+        pluto.setWidth(660);
+        pluto.setHeight(660);
+        PLANETARY.add(pluto);
+
+        Image uranus = new Image();
+        uranus.setSrc("./images/uranus.jpg");
+        uranus.setWidth(660);
+        uranus.setHeight(660);
+        PLANETARY.add(uranus);
+
+        Image venus = new Image();
+        venus.setSrc("./images/venus.jpg");
+        venus.setWidth(660);
+        venus.setHeight(660);
+        PLANETARY.add(venus);
 
         // Uncomment the following section of code so Earth appears
         // and remember to update the unit tests in "ImageServiceTest.java"
