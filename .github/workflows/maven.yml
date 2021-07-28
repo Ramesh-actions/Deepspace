@@ -21,7 +21,7 @@ jobs:
       with:
         java-version: '11'
         distribution: 'adopt'
-    - name: Build with Maven
+    - name: Build & Deploy Package Maven
       run: mvn --batch-mode deploy --file ${{github.workspace}}\Deepspace\pom.xml
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
