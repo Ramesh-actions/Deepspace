@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: new-windows
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
